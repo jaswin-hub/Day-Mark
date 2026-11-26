@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.2" type="incidents">
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 37"
+            oldString="36"
+            replacement="37"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="16"
+            column="9"
+            startOffset="376"
+            endLine="16"
+            endColumn="23"
+            endOffset="390"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of Gradle than 8.13 is available: 8.14.7">
+        <fix-replace
+            description="Update to 8.14.7"
+            oldString="8.13"
+            replacement="8.14.7"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/wrapper/gradle-wrapper.properties"
+            line="3"
+            column="17"
+            startOffset="81"
+            endLine="3"
+            endColumn="79"
+            endOffset="143"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.13.2 is available: 9.5.1">
+        <fix-replace
+            description="Replace with 9.5.1"
+            family="Update versions"
+            oldString="8.13.2"
+            replacement="9.5.1"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="15"
+            endOffset="25"/>
+        <map>
+            <entry
+                name="coordinate"
+                string="com.android.application"/>
+            <entry
+                name="revision"
+                string="9.5.1"/>
+        </map>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.18.0 is available: 1.19.1">
+        <fix-replace
+            description="Change to 1.19.1"
+            family="Update versions"
+            oldString="1.18.0"
+            replacement="1.19.1"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="5"
+            column="8"
+            startOffset="72"
+            endLine="5"
+            endColumn="16"
+            endOffset="80"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.10.0 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.10.0"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="7"
+            column="13"
+            startOffset="113"
+            endLine="7"
+            endColumn="21"
+            endOffset="121"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.10.0 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.10.0"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="7"
+            column="13"
+            startOffset="113"
+            endLine="7"
+            endColumn="21"
+            endOffset="121"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.10.0 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.10.0"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="7"
+            column="13"
+            startOffset="113"
+            endLine="7"
+            endColumn="21"
+            endOffset="121"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose:compose-bom than 2026.06.01 is available: 2026.09.00">
+        <fix-replace
+            description="Change to 2026.09.00"
+            family="Update versions"
+            oldString="2026.06.01"
+            replacement="2026.09.00"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="8"
+            column="14"
+            startOffset="135"
+            endLine="8"
+            endColumn="26"
+            endOffset="147"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-compose than 2.9.8 is available: 2.10.2">
+        <fix-replace
+            description="Change to 2.10.2"
+            family="Update versions"
+            oldString="2.9.8"
+            replacement="2.10.2"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="9"
+            column="14"
+            startOffset="161"
+            endLine="9"
+            endColumn="21"
+            endOffset="168"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.datastore:datastore-preferences than 1.2.1 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.2.1"
+            replacement="1.3.0"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="11"
+            column="13"
+            startOffset="196"
+            endLine="11"
+            endColumn="20"
+            endOffset="203"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.android than 2.2.20 is available: 2.4.21">
+        <fix-replace
+            description="Change to 2.4.21"
+            family="Update versions"
+            oldString="2.2.20"
+            replacement="2.4.21"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="3"
+            column="10"
+            startOffset="35"
+            endLine="3"
+            endColumn="18"
+            endOffset="43"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.2.20 is available: 2.4.21">
+        <fix-replace
+            description="Change to 2.4.21"
+            family="Update versions"
+            oldString="2.2.20"
+            replacement="2.4.21"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="3"
+            column="10"
+            startOffset="35"
+            endLine="3"
+            endColumn="18"
+            endOffset="43"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.10.2 is available: 1.11.0">
+        <fix-replace
+            description="Change to 1.11.0"
+            family="Update versions"
+            oldString="1.10.2"
+            replacement="1.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/projects/task manager/gradle/libs.versions.toml"
+            line="14"
+            column="14"
+            startOffset="250"
+            endLine="14"
+            endColumn="22"
+            endOffset="258"/>
+    </incident>
+
+    <incident
+        id="ModifierParameter"
+        severity="warning"
+        message="Modifier parameter should be the first optional parameter">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/DaymarkScreens.kt"
+            line="681"
+            column="106"
+            startOffset="42323"
+            endLine="681"
+            endColumn="114"
+            endOffset="42331"/>
+    </incident>
+
+    <incident
+        id="ModifierParameter"
+        severity="warning"
+        message="Modifier parameter should be the first optional parameter">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/DaymarkScreens.kt"
+            line="782"
+            column="104"
+            startOffset="48858"
+            endLine="782"
+            endColumn="112"
+            endOffset="48866"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; `SDK_INT` is always >= 26">
+        <fix-data conditional="true"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/reminders/ReminderScheduler.kt"
+            line="25"
+            column="13"
+            startOffset="901"
+            endLine="25"
+            endColumn="40"
+            endOffset="928"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <fix-data file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26" folderName="mipmap-anydpi" requiresApi="26"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `String.toUri` instead?">
+        <fix-replace
+            description="Replace with the toUri extension function"
+            family="Replace with the toUri extension function"
+            robot="true"
+            independent="true"
+            oldString="Uri.parse(&quot;daymark://widget-config/$appWidgetId&quot;)"
+            replacement="&quot;daymark://widget-config/$appWidgetId&quot;.toUri()"
+            reformat="value"
+            imports="androidx.core.net.toUri"
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/widget/MonthWidget.kt"
+                startOffset="10976"
+                endOffset="11025"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/widget/MonthWidget.kt"
+            line="200"
+            column="22"
+            startOffset="10976"
+            endLine="200"
+            endColumn="71"
+            endOffset="11025"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `String.toUri` instead?">
+        <fix-replace
+            description="Replace with the toUri extension function"
+            family="Replace with the toUri extension function"
+            robot="true"
+            independent="true"
+            oldString="Uri.parse(&quot;daymark://quick-add/$date&quot;)"
+            replacement="&quot;daymark://quick-add/$date&quot;.toUri()"
+            reformat="value"
+            imports="androidx.core.net.toUri"
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/widget/MonthWidget.kt"
+                startOffset="38483"
+                endOffset="38521"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/widget/MonthWidget.kt"
+            line="617"
+            column="22"
+            startOffset="38483"
+            endLine="617"
+            endColumn="60"
+            endOffset="38521"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `String.toUri` instead?">
+        <fix-replace
+            description="Replace with the toUri extension function"
+            family="Replace with the toUri extension function"
+            robot="true"
+            independent="true"
+            oldString="Uri.parse(&quot;daymark://reminder/$taskId&quot;)"
+            replacement="&quot;daymark://reminder/$taskId&quot;.toUri()"
+            reformat="value"
+            imports="androidx.core.net.toUri"
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/reminders/ReminderScheduler.kt"
+                startOffset="1393"
+                endOffset="1432"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/reminders/ReminderScheduler.kt"
+            line="30"
+            column="76"
+            startOffset="1393"
+            endLine="30"
+            endColumn="115"
+            endOffset="1432"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `String.toUri` instead?">
+        <fix-replace
+            description="Replace with the toUri extension function"
+            family="Replace with the toUri extension function"
+            robot="true"
+            independent="true"
+            oldString="Uri.parse(&quot;daymark://reminder/$taskId&quot;)"
+            replacement="&quot;daymark://reminder/$taskId&quot;.toUri()"
+            reformat="value"
+            imports="androidx.core.net.toUri"
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/reminders/ReminderScheduler.kt"
+                startOffset="1827"
+                endOffset="1866"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/reminders/ReminderScheduler.kt"
+            line="35"
+            column="76"
+            startOffset="1827"
+            endLine="35"
+            endColumn="115"
+            endOffset="1866"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `String.toUri` instead?">
+        <fix-replace
+            description="Replace with the toUri extension function"
+            family="Replace with the toUri extension function"
+            robot="true"
+            independent="true"
+            oldString="Uri.parse(&quot;daymark://task/$id&quot;)"
+            replacement="&quot;daymark://task/$id&quot;.toUri()"
+            reformat="value"
+            imports="androidx.core.net.toUri"
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/reminders/ReminderScheduler.kt"
+                startOffset="3288"
+                endOffset="3319"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/daymark/app/reminders/ReminderScheduler.kt"
+            line="55"
+            column="75"
+            startOffset="3288"
+            endLine="55"
+            endColumn="106"
+            endOffset="3319"/>
+    </incident>
+
+</incidents>

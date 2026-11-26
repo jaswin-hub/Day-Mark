@@ -1,0 +1,5 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/daymark_icon_background" />
+    <foreground android:drawable="@drawable/daymark_marker_foreground" />
+    <monochrome android:drawable="@drawable/daymark_marker_monochrome" />
+</adaptive-icon>

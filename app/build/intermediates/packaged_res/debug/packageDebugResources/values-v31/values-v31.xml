@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Daymark" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/daymark_marker_light</item>
+        <item name="android:windowSplashScreenBackground">@color/daymark_splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/daymark_splash_icon</item>
+    </style>
+</resources>

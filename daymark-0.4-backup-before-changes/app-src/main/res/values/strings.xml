@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Daymark</string>
+    <string name="widget_description">Monthly Daymark calendar with planned work and deadlines</string>
+</resources>

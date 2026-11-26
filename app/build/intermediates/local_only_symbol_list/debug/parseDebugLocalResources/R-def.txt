@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+animator daymark_marker_move
+color daymark_icon_background
+color daymark_marker_light
+color daymark_splash_background
+drawable daymark_marker_foreground
+drawable daymark_marker_monochrome
+drawable daymark_splash_icon
+drawable daymark_splash_vector
+layout daymark_widget_loading
+mipmap daymark_launcher
+string app_name
+string widget_description
+style Theme.Daymark
+xml month_widget_info

@@ -1,0 +1,4 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/daymark_splash_vector">
+    <target android:name="beam" android:animation="@animator/daymark_beam_settle" />
+</animated-vector>

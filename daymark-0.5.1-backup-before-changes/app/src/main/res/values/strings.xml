@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Daymark</string>
+    <string name="widget_description">Adaptive Daymark planner with mini, weekly and monthly layouts</string>
+</resources>

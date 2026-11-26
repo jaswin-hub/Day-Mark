@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.daymark.app-mergeDebugResources-48:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jaswi\\.gradle\\caches\\8.13\\transforms\\053105089b64329bb9da614690f6db5f\\transformed\\material3\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

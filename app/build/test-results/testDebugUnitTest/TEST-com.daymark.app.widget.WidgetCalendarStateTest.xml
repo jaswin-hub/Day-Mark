@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daymark.app.widget.WidgetCalendarStateTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-11-13T18:55:09.888Z" hostname="MSI" time="0.007">
+  <properties/>
+  <testcase name="invalidStoredValuesFallBackToToday" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.003"/>
+  <testcase name="legacyValidSelectionIsPreservedAsIntentional" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.001"/>
+  <testcase name="followTodayAdvancesAcrossDeviceDateChangeButExplicitSelectionDoesNot" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="monthlyGridUsesFourFiveAndSixCompleteWeeks" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="expandedAgendaUsesOnlySpaceAvailableForDisplayedWeekCount" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.001"/>
+  <testcase name="displayModePreferenceHonorsAvailableSize" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="unsupportedStateFormatRecoversToCurrentDate" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="leapYearGridAndMondaySundayStartsRemainAligned" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.001"/>
+  <testcase name="newWidgetFollowsCurrentDateAndNormalizesInvalidState" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="previousMonthNavigationKeepsSelectionInDisplayedMonth" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="nextMonthMovesSelectionAndClampsToMonthLength" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="responsiveBreakpointsSelectMiniWeeklyAndMonthlyLayouts" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="selectedDateSurvivesStateRecreation" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="widgetInstancesKeepIndependentSelections" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="dateSelectionMovesWidgetMonthAndSelectionTogether" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <testcase name="agendaOnlyAppearsWhenWidgetHasEnoughHeight" classname="com.daymark.app.widget.WidgetCalendarStateTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

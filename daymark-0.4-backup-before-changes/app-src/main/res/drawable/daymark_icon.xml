@@ -1,0 +1,5 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="96" android:viewportHeight="96">
+    <path android:strokeColor="@color/daymark_light_accent" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M48,17 L48,74 M27,27 L69,27 M29,27 L22,54 M67,27 L74,54 M12,54 Q22,68 32,54 M64,54 Q74,68 84,54 M32,83 L48,75 L64,83 M32,83 L64,83" />
+</vector>

@@ -1,0 +1,4 @@
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="220" android:propertyName="rotation"
+    android:valueFrom="6" android:valueTo="0" android:valueType="floatType"
+    android:interpolator="@android:interpolator/fast_out_slow_in" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daymark.app.data.TaskStatusCalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-13T18:55:09.886Z" hostname="MSI" time="0.0">
+  <properties/>
+  <testcase name="dueAndOverdueAreIndependentOfPlan" classname="com.daymark.app.data.TaskStatusCalculatorTest" time="0.0"/>
+  <testcase name="unscheduledAndDeadlineTime" classname="com.daymark.app.data.TaskStatusCalculatorTest" time="0.0"/>
+  <testcase name="completionAndReopen" classname="com.daymark.app.data.TaskStatusCalculatorTest" time="0.0"/>
+  <testcase name="upcomingAndPlannedToday" classname="com.daymark.app.data.TaskStatusCalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

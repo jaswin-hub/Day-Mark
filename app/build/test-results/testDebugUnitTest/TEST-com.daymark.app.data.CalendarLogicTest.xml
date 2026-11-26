@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daymark.app.data.CalendarLogicTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-13T18:55:09.635Z" hostname="MSI" time="0.039">
+  <properties/>
+  <testcase name="monthGridStartsSundayAndIncludesNormalRows" classname="com.daymark.app.data.CalendarLogicTest" time="0.012"/>
+  <testcase name="februaryLeapYearAndSixWeekMonth" classname="com.daymark.app.data.CalendarLogicTest" time="0.0"/>
+  <testcase name="daySummaryAggregatesEachOccurrenceAndDominantStatus" classname="com.daymark.app.data.CalendarLogicTest" time="0.015"/>
+  <testcase name="plansAndDeadlinesCreateSeparateOccurrences" classname="com.daymark.app.data.CalendarLogicTest" time="0.004"/>
+  <testcase name="urgentUnfinishedStatusOutranksCompletedAndLessUrgentStatuses" classname="com.daymark.app.data.CalendarLogicTest" time="0.0"/>
+  <testcase name="allCompletedOccurrencesAreGreenAndNoOccurrencesAreNeutral" classname="com.daymark.app.data.CalendarLogicTest" time="0.002"/>
+  <testcase name="missedPlanDoesNotMakeFutureDeadlineOverdue" classname="com.daymark.app.data.CalendarLogicTest" time="0.0"/>
+  <testcase name="overdueDeadlineAndDeadlineTodayHaveCorrectStatuses" classname="com.daymark.app.data.CalendarLogicTest" time="0.0"/>
+  <testcase name="sameTaskWithSamePlanAndDeadlineProducesTwoOccurrences" classname="com.daymark.app.data.CalendarLogicTest" time="0.005"/>
+  <testcase name="deadlineTodayIsAmberAndCompletedOverridesOverdue" classname="com.daymark.app.data.CalendarLogicTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
